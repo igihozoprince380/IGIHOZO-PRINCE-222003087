@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Table Structure</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sales Table Structure</h1>
+    <table>
+        <tr>
+            <th>Column</th>
+            <th>Type</th>
+            <th>Default</th>
+            <th>Null</th>
+            <th>Extra</th>
+        </tr>
+        <tr>
+            <td>sale_id</td>
+            <td>int(11)</td>
+            <td></td>
+            <td>NO</td>
+            <td>AUTO_INCREMENT</td>
+        </tr>
+        <tr>
+            <td>station_id</td>
+            <td>int(11)</td>
+            <td>NULL</td>
+            <td>YES</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>product_id</td>
+            <td>int(11)</td>
+            <td>NULL</td>
+            <td>YES</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>customer_id</td>
+            <td>int(11)</td>
+            <td>NULL</td>
+            <td>YES</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>quantity</td>
+            <td>int(11)</td>
+            <td>NULL</td>
+            <td>YES</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>total_amount</td>
+            <td>decimal(10,2)</td>
+            <td>NULL</td>
+            <td>YES</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>sale_date</td>
+            <td>date</td>
+            <td>NULL</td>
+            <td>YES</td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Table Structure</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Admin Table Structure</h1>
+    <table>
+        <tr>
+            <th>Column</th>
+            <th>Type</th>
+            <th>Default</th>
+            <th>Null</th>
+            <th>Extra</th>
+        </tr>
+        <tr>
+            <td>admin_id</td>
+            <td>int(11)</td>
+            <td></td>
+            <td>NO</td>
+            <td>AUTO_INCREMENT</td>
+        </tr>
+        <tr>
+            <td>fname</td>
+            <td>varchar(255)</td>
+            <td>NULL</td>
+            <td>YES</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>lname</td>
+            <td>varchar(255)</td>
+            <td>NULL</td>
+            <td>YES</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>idNumber</td>
+            <td>varchar(20)</td>
+            <td>NULL</td>
+            <td>YES</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>phone</td>
+            <td>varchar(20)</td>
+            <td>NULL</td>
+            <td>YES</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>gender</td>
+            <td>enum('Male','Female','Other')</td>
+            <td>NULL</td>
+            <td>YES</td>
+            <td></td>
+        </tr>
+        <tr>
+ <td>martialStatus</td>
+            <td>enum('Single','Married
+                <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Customers Table Structure</title>
+                    <style>
+                        table {
+                            border-collapse: collapse;
+                            width: 100%;
+                        }
+                        th, td {
+                            border: 1px solid #dddddd;
+                            text-align: left;
+                            padding: 8px;
+                        }
+                        th {
+                            background-color: #f2f2f2;
+                        }
+                    </style>
+                </head>
+                <body>
+                    <h1>Customers Table Structure</h1>
+                    <table>
+                        <tr>
+                            <th>Column</th>
+                            <th>Type</th>
+                            <th>Default</th>
+                            <th>Null</th>
+                            <th>Extra</th>
+                        </tr>
+                        <tr>
+                            <td>customer_id</td>
+                            <td>int(11)</td>
+                            <td></td>
+                            <td>NO</td>
+                            <td>AUTO_INCREMENT</td>
+                        </tr>
+                        <tr>
+                            <td>customer_name</td>
+                            <td>varchar(255)</td>
+                            <td>NULL</td>
+                            <td>YES</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>email</td>
+                            <td>varchar(255)</td>
+                            <td>NULL</td>
+                            <td>YES</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>phone_number</td>
+                            <td>varchar(20)</td>
+                            <td>NULL</td>
+                            <td>YES</td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </body>
+                </html>
+                <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Products Table Structure</title>
+                    <style>
+                        table {
+                            border-collapse: collapse;
+                            width: 100%;
+                        }
+                        th, td {
+                            border: 1px solid #dddddd;
+                            text-align: left;
+                            padding: 8px;
+                        }
+                        th {
+                            background-color: #f2f2f2;
+                        }
+                    </style>
+                </head>
+                <body>
+                    <h1>Products Table Structure</h1>
+                    <table>
+                        <tr>
+                            <th>Column</th>
+                            <th>Type</th>
+                            <th>Default</th>
+                            <th>Null</th>
+                            <th>Extra</th>
+                        </tr>
+                        <tr>
+                            <td>product_id</td>
+                            <td>int(11)</td>
+                            <td></td>
+                            <td>NO</td>
+                            <td>AUTO_INCREMENT</td>
+                        </tr>
+                        <tr>
+                            <td>product_name</td>
+                            <td>varchar(255)</td>
+                            <td>NULL</td>
+                            <td>YES</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>unit_price</td>
+                            <td>decimal(10,2)</td>
+                            <td>NULL</td>
+                            <td>YES</td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </body>
+                </html>
+                <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Station Table Structure</title>
+                    <style>
+                        table {
+                            border-collapse: collapse;
+                            width: 100%;
+                        }
+                        th, td {
+                            border: 1px solid #dddddd;
+                            text-align: left;
+                            padding: 8px;
+                        }
+                        th {
+                            background-color: #f2f2f2;
+                        }
+                    </style>
+                </head>
+                <body>
+                    <h1>Station Table Structure</h1>
+                    <table>
+                        <tr>
+                            <th>Column</th>
+                            <th>Type</th>
+                            <th>Default</th>
+                            <th>Null</th>
+                            <th>Extra</th>
+                        </tr>
+                        <tr>
+                            <td>station_id</td>
+                            <td>int(11)</td>
+                            <td></td>
+                            <td>NO</td>
+                            <td>AUTO_INCREMENT</td>
+                        </tr>
+                        <tr>
+                            <td>station_name</td>
+                            <td>varchar(255)</td>
+                            <td>NULL</td>
+                            <td>YES</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>location</td>
+                            <td>varchar(255)</td>
+                            <td>NULL</td>
+                            <td>YES</td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </body>
+                </html>
+                                                
+                <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Station Table Structure</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
